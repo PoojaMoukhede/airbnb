@@ -1,0 +1,113 @@
+body{
+    margin: 20px;
+    margin-top: 0px;
+} 
+#host{
+  margin: 20px;
+}
+  .global{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    /* margin-left: -90px; */
+  }
+  .button{
+    display: flex;
+    border-radius: 21px;
+    background-color: white;
+    border: 0.5px solid gray;
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .button :hover{
+    transform: scale(1.07);
+  }
+  .three{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .user{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+.overlay{
+    position:absolute;
+}
+.collection{
+    position:absolute; 
+    margin-top: -250px;
+    margin-left: 10px;
+    color:white;
+}  
+.world{
+    /* position:absolute;  */
+    margin-top: -220px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.bottom-left{
+    position:absolute; 
+    margin-top: 200px;
+    margin-left: -450px;
+}
+.nav{
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    
+}
+.fixed{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid gray;
+}
+.movable{
+    display: flex;
+    flex-direction: row;
+}
+.fbtn{
+    /* width:fit-content;
+    height: fit-content; */
+    display: inline-block;
+    text-align: center;
+    width: max-content;
+    margin: 5px;
+    border-radius: 20px;
+    border-color: white;
+}
+.movable > .fbtn :hover{
+    transform: scale(1.07);
+}
+.lower{
+    margin-left: 50px;
+}
+
+div.movable {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.movable button{
+    /* display: inline-block; */
+    color: black;
+    text-align: center;
+  }
+  
+  div.movable button:hover {
+    background-color: #777;
+  }
+
+button{
+    border-radius: 20px;
+    border-color: white;
+}
